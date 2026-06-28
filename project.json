@@ -1,0 +1,17 @@
+{
+  "overview": "A ChatGPT-style AI chat for app development that helps users build apps through conversation.",
+  "features": [
+    "ChatGPT-style dark sidebar and light chat area",
+    "Streaming AI responses via Pollinations.ai",
+    "New chat and chat history",
+    "localStorage persistence"
+  ],
+  "category": "ai-chat",
+  "tags": [
+    "ai",
+    "chatgpt",
+    "app-development",
+    "chat"
+  ],
+  "last_updated": "2026-06-28T10:36:19.215Z"
+}

@@ -1,0 +1,11 @@
+manifest_version = "0.1.0"
+
+[project]
+id = "019dabc7-f15e-714a-b699-c96dbe4cf536"
+name = "Caffeine Designer"
+
+[workspace]
+include = [ "src/**" ]
+
+[canisters.frontend]
+depends_on = [ "backend" ]

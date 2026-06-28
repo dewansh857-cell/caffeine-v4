@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caffeine — Redesign Mockups</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/tabler-icons.min.css">
+<style>
+  :root { --font-sans: 'Inter', system-ui, -apple-system, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#E7E3DA; font-family: var(--font-sans); color:#2A2620; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { font-size: 28px; font-weight: 600; letter-spacing:-0.02em; margin:0 0 4px; }
+  .sub { font-size: 15px; color:#6E6A62; margin:0 0 36px; }
+  .label { font-size: 12px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:#A85420; margin: 38px 0 12px; }
+  .note { font-size: 13px; color:#6E6A62; margin: 6px 0 0; }
+  .mock { border-radius: 20px; overflow: hidden; box-shadow: 0 8px 30px rgba(60,45,25,0.10); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Caffeine — redesign mockups</h1>
+  <p class="sub">One warm, multi-color, rounded "bento" system — two temperatures (personal vs business), three candidate primaries, plus the build flow.</p>
+
+  <div class="label">1 · The system — palette &amp; components</div>
+  <div class="mock" style="background:#fff; padding:20px;">
+    <div style="display:grid; grid-template-columns: repeat(6, 1fr); gap:8px; margin-bottom:10px;">
+      <div style="background:#FBEEE3; border-radius:12px; padding:12px 10px;"><span style="width:14px;height:14px;border-radius:5px;background:#D26B2C;display:block;margin-bottom:8px;"></span><div style="font-size:12px;font-weight:500;color:#A85420;">Orange</div><div style="font-size:11px;color:#9A958C;">primary</div></div>
+      <div style="background:#DFF0E6; border-radius:12px; padding:12px 10px;"><span style="width:14px;height:14px;border-radius:5px;background:#3E9B68;display:block;margin-bottom:8px;"></span><div style="font-size:12px;font-weight:500;color:#2C6E49;">Mint</div><div style="font-size:11px;color:#9A958C;">live</div></div>
+      <div style="background:#E2EDF6; border-radius:12px; padding:12px 10px;"><span style="width:14px;height:14px;border-radius:5px;background:#3F7FB8;display:block;margin-bottom:8px;"></span><div style="font-size:12px;font-weight:500;color:#2C5A85;">Sky</div><div style="font-size:11px;color:#9A958C;">info</div></div>
+      <div style="background:#EDE6F6; border-radius:12px; padding:12px 10px;"><span style="width:14px;height:14px;border-radius:5px;background:#8A6BC4;display:block;margin-bottom:8px;"></span><div style="font-size:12px;font-weight:500;color:#5E479A;">Lilac</div><div style="font-size:11px;color:#9A958C;">build</div></div>
+      <div style="background:#F7EFD9; border-radius:12px; padding:12px 10px;"><span style="width:14px;height:14px;border-radius:5px;background:#C99A2E;display:block;margin-bottom:8px;"></span><div style="font-size:12px;font-weight:500;color:#8A6A1A;">Gold</div><div style="font-size:11px;color:#9A958C;">draft</div></div>
+      <div style="background:#F7E6E2; border-radius:12px; padding:12px 10px;"><span style="width:14px;height:14px;border-radius:5px;background:#C95B4A;display:block;margin-bottom:8px;"></span><div style="font-size:12px;font-weight:500;color:#9A3F32;">Coral</div><div style="font-size:11px;color:#9A958C;">alert</div></div>
+    </div>
+    <div style="display:flex; gap:6px; margin-bottom:20px;">
+      <span style="flex:1;height:30px;border-radius:8px;background:#F3F0E9;border:1px solid #E6E1D8;"></span>
+      <span style="flex:1;height:30px;border-radius:8px;background:#FFFFFF;border:1px solid #E6E1D8;"></span>
+      <span style="flex:1;height:30px;border-radius:8px;background:#E6E1D8;"></span>
+      <span style="flex:1;height:30px;border-radius:8px;background:#8A8478;"></span>
+      <span style="flex:1;height:30px;border-radius:8px;background:#2A2620;"></span>
+    </div>
+    <div style="display:flex; flex-wrap:wrap; align-items:center; gap:10px;">
+      <button style="background:#D26B2C;color:#fff;border:none;font-size:13px;font-weight:500;padding:9px 16px;border-radius:12px;">Primary</button>
+      <button style="background:#fff;color:#2A2620;border:1px solid #D8D2C8;font-size:13px;font-weight:500;padding:9px 16px;border-radius:12px;">Secondary</button>
+      <span style="background:#DFF0E6;color:#2C6E49;font-size:12px;font-weight:500;padding:4px 11px;border-radius:999px;">&#9679; Live</span>
+      <span style="background:#F7EFD9;color:#8A6A1A;font-size:12px;font-weight:500;padding:4px 11px;border-radius:999px;">&#9679; Draft</span>
+      <span style="background:#EDE6F6;color:#5E479A;font-size:12px;font-weight:500;padding:4px 11px;border-radius:999px;">&#9679; Building</span>
+    </div>
+  </div>
+
+  <div class="label">2 · Personal Home — orange (the front door)</div>
+  <div class="mock">
+    <div style="background:#F3F0E9;">
+      <div style="display:flex; align-items:center; justify-content:space-between; padding:14px 18px; background:#FBFAF7; border-bottom:1px solid #E9E4DB;">
+        <div style="display:flex; align-items:center; gap:22px;">
+          <span style="font-size:16px; font-weight:600;">caffeine<span style="color:#D26B2C;">.</span></span>
+          <div style="display:flex; gap:16px; font-size:13px; color:#8C887E;">
+            <span style="color:#2A2620; font-weight:500;"><i class="ti ti-home" style="color:#D26B2C;"></i> Home</span>
+            <span><i class="ti ti-wand"></i> Build</span><span><i class="ti ti-apps"></i> Apps</span><span><i class="ti ti-building-store"></i> Market</span><span><i class="ti ti-activity"></i> Live</span>
+          </div>
+        </div>
+        <span style="font-size:12px; color:#6E6A62; background:#fff; border:1px solid #E6E1D8; border-radius:999px; padding:5px 11px;"><i class="ti ti-user-circle"></i> Personal</span>
+      </div>
+      <div style="padding:20px;">
+        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; grid-auto-rows:minmax(80px,auto); gap:12px;">
+          <div style="grid-column:span 2; background:#D26B2C; color:#fff; border-radius:20px; padding:22px;"><div style="font-size:24px; font-weight:600;">Hey Michael &#128075;</div><div style="font-size:14px; opacity:0.92; margin-top:3px;">Your apps are running smoothly. Pick up VaultEx, or start something new.</div></div>
+          <div style="background:#DFF0E6; border-radius:20px; padding:18px;"><div style="font-size:11px; text-transform:uppercase; letter-spacing:0.05em; color:#5E7A66;">People using your apps</div><div style="font-size:28px; font-weight:700; color:#234E36;">1,624</div><div style="font-size:12px; color:#3E8E5E;">&#8593; 12% this week</div></div>
+          <div style="background:#fff; border-radius:20px; padding:18px; display:flex; align-items:center; gap:13px;"><span style="width:48px;height:48px;border-radius:15px;background:#DFF0E6;color:#3E9B68;display:flex;align-items:center;justify-content:center;"><i class="ti ti-stethoscope" style="font-size:25px;"></i></span><div><div style="font-size:15px;font-weight:600;">ClearPath</div><span style="background:#DFF0E6;color:#2C6E49;font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;">Live</span></div></div>
+          <div style="background:#fff; border-radius:20px; padding:18px; display:flex; align-items:center; gap:13px;"><span style="width:48px;height:48px;border-radius:15px;background:#FBEEE3;color:#D26B2C;display:flex;align-items:center;justify-content:center;"><i class="ti ti-users" style="font-size:25px;"></i></span><div><div style="font-size:15px;font-weight:600;">Community</div><span style="background:#DFF0E6;color:#2C6E49;font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;">Live</span></div></div>
+          <div style="background:#F7EFD9; border-radius:20px; padding:18px;"><div style="display:flex; justify-content:space-between;"><span style="font-size:15px;font-weight:600;color:#7A5E16;">VaultEx</span><span style="font-size:11px;font-weight:600;color:#9A7A1C;">62%</span></div><div style="height:7px;border-radius:999px;background:#EBDFBE;overflow:hidden;margin-top:10px;"><div style="height:100%;width:62%;background:#C99A2E;border-radius:999px;"></div></div><div style="font-size:12px;color:#9A7A1C;margin-top:8px;">3 questions to go &#8594;</div></div>
+          <div style="grid-column:span 2; background:#2A2620; color:#fff; border-radius:20px; padding:20px; display:flex; align-items:center; justify-content:space-between;"><div style="display:flex; align-items:center; gap:14px;"><span style="width:44px;height:44px;border-radius:14px;background:#3A322A;color:#E89A5C;display:flex;align-items:center;justify-content:center;"><i class="ti ti-wand" style="font-size:24px;"></i></span><div><div style="font-size:16px;font-weight:600;">Build something new</div><div style="font-size:13px;color:#A39A8C;">Answer a few questions — about 5 minutes</div></div></div><i class="ti ti-arrow-right" style="font-size:22px;"></i></div>
+          <div style="background:#EDE6F6; border-radius:20px; padding:18px;"><i class="ti ti-building-store" style="font-size:24px; color:#7A5BB0;"></i><div style="font-size:15px; font-weight:600; color:#4E3A85; margin-top:8px;">Browse the market</div><div style="font-size:12px; color:#7A5BB0;">384 ready-made apps &#8594;</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="label">3 · Enterprise / business workspace — same system, calm temperature</div>
+  <div class="mock">
+    <div style="background:#F7F6F3;">
+      <div style="display:flex; align-items:center; justify-content:space-between; padding:12px 18px; background:#fff; border-bottom:1px solid #E8E4DC;">
+        <div style="display:flex; align-items:center; gap:20px;">
+          <span style="font-size:15px; font-weight:600;">caffeine<span style="color:#C2632A;">.</span></span>
+          <span style="display:flex; align-items:center; gap:7px; font-size:13px; font-weight:500; background:#F2F0EB; border:1px solid #E4E0D7; border-radius:8px; padding:5px 10px;"><span style="width:18px;height:18px;border-radius:5px;background:#3A4D8F;color:#fff;display:flex;align-items:center;justify-content:center;font-size:10px;">A</span> Acme Inc <i class="ti ti-chevron-down" style="color:#8C887E;"></i></span>
+          <div style="display:flex; gap:15px; font-size:13px; color:#8C887E;"><span style="color:#1E1C18; font-weight:500;">Apps</span><span>Team</span><span>Usage</span><span>Billing</span></div>
+        </div>
+        <div><span style="width:24px;height:24px;border-radius:50%;background:#D7DEEF;border:1.5px solid #fff;display:inline-block;vertical-align:middle;"></span><span style="width:24px;height:24px;border-radius:50%;background:#E7D9CC;border:1.5px solid #fff;margin-left:-12px;display:inline-block;vertical-align:middle;"></span><span style="font-size:12px;color:#8C887E;margin-left:4px;">+6</span></div>
+      </div>
+      <div style="padding:20px;">
+        <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:16px;"><div><div style="font-size:19px; font-weight:600;">Apps</div><div style="font-size:13px; color:#8C887E;">6 apps across your workspace</div></div><button style="background:#C2632A; color:#fff; border:none; font-size:13px; font-weight:500; padding:7px 14px; border-radius:8px;">New app</button></div>
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:16px;">
+          <div style="background:#fff;border:1px solid #E8E4DC;border-radius:10px;padding:13px 15px;"><div style="font-size:11px;text-transform:uppercase;letter-spacing:0.04em;color:#9A958C;">Live apps</div><div style="font-size:21px;font-weight:600;">4 <span style="font-size:12px;color:#9A958C;font-weight:400;">of 6</span></div></div>
+          <div style="background:#fff;border:1px solid #E8E4DC;border-radius:10px;padding:13px 15px;"><div style="font-size:11px;text-transform:uppercase;letter-spacing:0.04em;color:#9A958C;">Avg uptime</div><div style="font-size:21px;font-weight:600;">99.7%</div></div>
+          <div style="background:#fff;border:1px solid #E8E4DC;border-radius:10px;padding:13px 15px;"><div style="font-size:11px;text-transform:uppercase;letter-spacing:0.04em;color:#9A958C;">Monthly active</div><div style="font-size:21px;font-weight:600;">12,408</div></div>
+          <div style="background:#fff;border:1px solid #E8E4DC;border-radius:10px;padding:13px 15px;"><div style="font-size:11px;text-transform:uppercase;letter-spacing:0.04em;color:#9A958C;">Spend</div><div style="font-size:21px;font-weight:600;">$340<span style="font-size:12px;color:#9A958C;font-weight:400;">/mo</span></div></div>
+        </div>
+        <div style="background:#fff; border:1px solid #E8E4DC; border-radius:12px; overflow:hidden; font-size:13px;">
+          <div style="display:grid; grid-template-columns:2.2fr 1fr 1.1fr 0.9fr 0.8fr 1.1fr; gap:10px; padding:10px 16px; font-size:11px; text-transform:uppercase; letter-spacing:0.04em; color:#9A958C; border-bottom:1px solid #EEEAE2; background:#FBFAF7;"><span>Application</span><span>Status</span><span>Region</span><span>Users</span><span>Uptime</span><span>Owner</span></div>
+          <div style="display:grid; grid-template-columns:2.2fr 1fr 1.1fr 0.9fr 0.8fr 1.1fr; gap:10px; padding:12px 16px; align-items:center; border-bottom:1px solid #F2EFE9;"><span style="font-weight:500; display:flex; align-items:center; gap:9px;"><span style="width:26px;height:26px;border-radius:7px;background:#EAF0EC;color:#3E8E5E;display:flex;align-items:center;justify-content:center;"><i class="ti ti-stethoscope"></i></span>ClearPath Practice</span><span style="color:#2C6E49;">&#9679; Live</span><span style="color:#6E6A62;">us-east-1</span><span>1,243</span><span style="color:#2C6E49;">99.9%</span><span style="color:#6E6A62;">james@acme</span></div>
+          <div style="display:grid; grid-template-columns:2.2fr 1fr 1.1fr 0.9fr 0.8fr 1.1fr; gap:10px; padding:12px 16px; align-items:center; border-bottom:1px solid #F2EFE9;"><span style="font-weight:500; display:flex; align-items:center; gap:9px;"><span style="width:26px;height:26px;border-radius:7px;background:#EBE7F4;color:#7156B0;display:flex;align-items:center;justify-content:center;"><i class="ti ti-layout-dashboard"></i></span>Internal CRM</span><span style="color:#2C6E49;">&#9679; Live</span><span style="color:#6E6A62;">us-west-2</span><span>891</span><span style="color:#2C6E49;">99.8%</span><span style="color:#6E6A62;">priya@acme</span></div>
+          <div style="display:grid; grid-template-columns:2.2fr 1fr 1.1fr 0.9fr 0.8fr 1.1fr; gap:10px; padding:12px 16px; align-items:center; border-bottom:1px solid #F2EFE9;"><span style="font-weight:500; display:flex; align-items:center; gap:9px;"><span style="width:26px;height:26px;border-radius:7px;background:#F4EEDD;color:#A07B1E;display:flex;align-items:center;justify-content:center;"><i class="ti ti-lock"></i></span>VaultEx Records</span><span style="color:#9A7A1C;">&#9679; Draft</span><span style="color:#6E6A62;">eu-west-1</span><span style="color:#9A958C;">&#8212;</span><span style="color:#9A958C;">&#8212;</span><span style="color:#6E6A62;">maya@acme</span></div>
+          <div style="display:grid; grid-template-columns:2.2fr 1fr 1.1fr 0.9fr 0.8fr 1.1fr; gap:10px; padding:12px 16px; align-items:center;"><span style="font-weight:500; display:flex; align-items:center; gap:9px;"><span style="width:26px;height:26px;border-radius:7px;background:#FBEAE6;color:#C2533F;display:flex;align-items:center;justify-content:center;"><i class="ti ti-bolt"></i></span>Ops Monitor</span><span style="color:#C2533F;">&#9679; Degraded</span><span style="color:#6E6A62;">ap-southeast</span><span>156</span><span style="color:#C2533F;">97.4%</span><span style="color:#6E6A62;">sam@acme</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="label">4 · Build flow — in the new system</div>
+  <div class="mock" style="background:#F3F0E9; padding:22px;">
+    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:18px;"><div style="font-size:13px; color:#8C887E;">building <span style="color:#2A2620; font-weight:500;">TrailLog</span></div><div style="display:flex; gap:5px;"><span style="width:26px;height:6px;border-radius:999px;background:#D26B2C;"></span><span style="width:26px;height:6px;border-radius:999px;background:#D26B2C;"></span><span style="width:26px;height:6px;border-radius:999px;background:#E8C9B0;"></span><span style="width:26px;height:6px;border-radius:999px;background:#E2DCD2;"></span><span style="width:26px;height:6px;border-radius:999px;background:#E2DCD2;"></span></div></div>
+    <div style="font-size:11px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#C77E4E; margin-bottom:8px;">The people &#183; question 3 of 13</div>
+    <div style="font-size:25px; font-weight:600; margin-bottom:6px;">Who's going to use your app?</div>
+    <div style="font-size:14px; color:#6E6A62; margin-bottom:18px;">No wrong answers — just pick whoever fits. You can change it later.</div>
+    <div style="display:flex; flex-direction:column; gap:11px; max-width:520px;">
+      <div style="display:flex; align-items:center; gap:14px; padding:15px; border-radius:16px; background:#fff; border:2px solid #D26B2C; box-shadow:0 4px 14px rgba(210,107,44,0.10);"><span style="width:46px;height:46px;border-radius:14px;background:#D26B2C;color:#fff;display:flex;align-items:center;justify-content:center;"><i class="ti ti-users" style="font-size:24px;"></i></span><div style="flex:1;"><div style="font-size:15px;font-weight:600;">Everyday people</div><div style="font-size:13px;color:#9A958C;">Friends, customers, the public</div></div><i class="ti ti-circle-check" style="font-size:24px; color:#D26B2C;"></i></div>
+      <div style="display:flex; align-items:center; gap:14px; padding:15px; border-radius:16px; background:#fff; border:1px solid #E6E1D8;"><span style="width:46px;height:46px;border-radius:14px;background:#E2EDF6;color:#3F7FB8;display:flex;align-items:center;justify-content:center;"><i class="ti ti-building-store" style="font-size:24px;"></i></span><div style="flex:1;"><div style="font-size:15px;font-weight:600;">Businesses</div><div style="font-size:13px;color:#9A958C;">Companies and teams</div></div></div>
+      <div style="display:flex; align-items:center; gap:14px; padding:15px; border-radius:16px; background:#fff; border:1px solid #E6E1D8;"><span style="width:46px;height:46px;border-radius:14px;background:#DFF0E6;color:#3E9B68;display:flex;align-items:center;justify-content:center;"><i class="ti ti-heart-handshake" style="font-size:24px;"></i></span><div style="flex:1;"><div style="font-size:15px;font-weight:600;">A community or club</div><div style="font-size:13px;color:#9A958C;">A group with shared interests</div></div></div>
+    </div>
+    <button style="margin-top:18px; background:#D26B2C; color:#fff; border:none; font-size:15px; font-weight:600; padding:13px 24px; border-radius:14px;">Continue &#8594;</button>
+  </div>
+
+  <div class="label">5 · Color variation — emerald primary</div>
+  <div class="mock" style="background:#EEF1EC; padding:18px;">
+    <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; grid-auto-rows:minmax(78px,auto); gap:11px;">
+      <div style="grid-column:span 2; background:#2F8F5E; color:#fff; border-radius:18px; padding:20px;"><div style="font-size:22px; font-weight:600;">Hey Michael &#128075;</div><div style="font-size:13px; opacity:0.92;">Your apps are running smoothly.</div></div>
+      <div style="background:#E3ECF7; border-radius:18px; padding:16px;"><div style="font-size:11px; text-transform:uppercase; color:#5A7396;">People</div><div style="font-size:25px; font-weight:700; color:#2B4A78;">1,624</div></div>
+      <div style="background:#fff; border-radius:18px; padding:16px; display:flex; align-items:center; gap:12px;"><span style="width:44px;height:44px;border-radius:13px;background:#DFEEE6;color:#2F8F5E;display:flex;align-items:center;justify-content:center;"><i class="ti ti-stethoscope" style="font-size:23px;"></i></span><div><div style="font-size:14px;font-weight:600;">ClearPath</div><span style="background:#DFEEE6;color:#256B47;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;">Live</span></div></div>
+      <div style="background:#fff; border-radius:18px; padding:16px; display:flex; align-items:center; gap:12px;"><span style="width:44px;height:44px;border-radius:13px;background:#EAE6F5;color:#7156B0;display:flex;align-items:center;justify-content:center;"><i class="ti ti-users" style="font-size:23px;"></i></span><div><div style="font-size:14px;font-weight:600;">Community</div><span style="background:#DFEEE6;color:#256B47;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;">Live</span></div></div>
+      <div style="background:#F6EEDA; border-radius:18px; padding:16px;"><div style="font-size:14px;font-weight:600;color:#7A5E16;">VaultEx &#183; 62%</div><div style="height:7px;border-radius:999px;background:#E9DDBA;overflow:hidden;margin-top:9px;"><div style="height:100%;width:62%;background:#C99A2E;border-radius:999px;"></div></div></div>
+      <div style="grid-column:span 2; background:#222620; color:#fff; border-radius:18px; padding:18px; display:flex; align-items:center; justify-content:space-between;"><div style="display:flex;align-items:center;gap:12px;"><i class="ti ti-wand" style="font-size:23px; color:#5FC78C;"></i><span style="font-size:15px;font-weight:600;">Build something new</span></div><i class="ti ti-arrow-right" style="font-size:20px;"></i></div>
+      <div style="background:#EAE6F5; border-radius:18px; padding:16px;"><i class="ti ti-building-store" style="font-size:22px; color:#7156B0;"></i><div style="font-size:14px; font-weight:600; color:#4E3A85; margin-top:6px;">Market &#8594;</div></div>
+    </div>
+  </div>
+
+  <div class="label">6 · Color variation — indigo primary</div>
+  <div class="mock" style="background:#EDEEF2; padding:18px;">
+    <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; grid-auto-rows:minmax(78px,auto); gap:11px;">
+      <div style="grid-column:span 2; background:#4A45B5; color:#fff; border-radius:18px; padding:20px;"><div style="font-size:22px; font-weight:600;">Welcome back, Michael</div><div style="font-size:13px; opacity:0.9;">Your apps are running smoothly.</div></div>
+      <div style="background:#DDEBEA; border-radius:18px; padding:16px;"><div style="font-size:11px; text-transform:uppercase; color:#3E7773;">People</div><div style="font-size:25px; font-weight:700; color:#235B56;">1,624</div></div>
+      <div style="background:#fff; border-radius:18px; padding:16px; display:flex; align-items:center; gap:12px;"><span style="width:44px;height:44px;border-radius:13px;background:#E4E7F7;color:#4A45B5;display:flex;align-items:center;justify-content:center;"><i class="ti ti-stethoscope" style="font-size:23px;"></i></span><div><div style="font-size:14px;font-weight:600;">ClearPath</div><span style="background:#DDEBEA;color:#235B56;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;">Live</span></div></div>
+      <div style="background:#fff; border-radius:18px; padding:16px; display:flex; align-items:center; gap:12px;"><span style="width:44px;height:44px;border-radius:13px;background:#E4E7F7;color:#4A45B5;display:flex;align-items:center;justify-content:center;"><i class="ti ti-users" style="font-size:23px;"></i></span><div><div style="font-size:14px;font-weight:600;">Community</div><span style="background:#DDEBEA;color:#235B56;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;">Live</span></div></div>
+      <div style="background:#FAEAD8; border-radius:18px; padding:16px;"><div style="font-size:14px;font-weight:600;color:#9A5A1E;">VaultEx &#183; 62%</div><div style="height:7px;border-radius:999px;background:#EFD9BE;overflow:hidden;margin-top:9px;"><div style="height:100%;width:62%;background:#D2802E;border-radius:999px;"></div></div></div>
+      <div style="grid-column:span 2; background:#1F2128; color:#fff; border-radius:18px; padding:18px; display:flex; align-items:center; justify-content:space-between;"><div style="display:flex;align-items:center;gap:12px;"><i class="ti ti-wand" style="font-size:23px; color:#8E88E8;"></i><span style="font-size:15px;font-weight:600;">Build something new</span></div><i class="ti ti-arrow-right" style="font-size:20px;"></i></div>
+      <div style="background:#DDEBEA; border-radius:18px; padding:16px;"><i class="ti ti-building-store" style="font-size:22px; color:#3E7773;"></i><div style="font-size:14px; font-weight:600; color:#235B56; margin-top:6px;">Market &#8594;</div></div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+// Version: 3.0.0
+type OldAppCategory__582516624 =
+  {
+    #booking;
+    #clubManager;
+    #contentCms;
+    #dashboard;
+    #internalTool;
+    #marketplace;
+    #other;
+    #social;
+    #tracker
+  };
+type OldBuilderMode__666189712 = {#feel; #guided; #standard};
+type OldData__631653343<K, V> = {var count : Nat; kvs : [var ?(K, V)]};
+type OldDeploymentStatus__646187649 = {#failed; #live; #notDeployed};
+type OldInternal__924628788<K, V> =
+  {
+    children : [var ?OldNode__460320417<K, V>];
+    data : OldData__631653343<K, V>
+  };
+type OldLeaf__30383961<K, V> = {data : OldData__631653343<K, V>};
+type OldMap__30246564<K, V> =
+  {var root : OldNode__460320417<K, V>; var size : Nat};
+type OldMaturity__551294152 =
+  {#building; #defining; #exploring; #idea; #live};
+type OldNode__460320417<K, V> =
+  {#internal : OldInternal__924628788<K, V>; #leaf : OldLeaf__30383961<K, V>};
+type OldOrganizeFilters__609911255 =
+  {
+    deploymentStatus : ?{#failed; #live; #notDeployed};
+    maturity : ?{#building; #defining; #exploring; #idea; #live};
+    priority : ?{#high; #low; #medium};
+    tags : [Text]
+  };
+type OldPriority__813239567 = {#high; #low; #medium};
+type OldProjectId__19212060 = Text;
+type OldProjectMetadata__90625156 =
+  {
+    attentionFlag : Bool;
+    builderMode : OldBuilderMode__666189712;
+    maturity : OldMaturity__551294152;
+    priority : ?OldPriority__813239567;
+    tags : [Text]
+  };
+type OldProjectVersion__859803869 =
+  {
+    changeSummary : Text;
+    specSnapshot : Text;
+    timestamp : OldTimestamp__27916213;
+    version : Text
+  };
+type OldProject__561176146 =
+  {
+    answers : Text;
+    category : OldAppCategory__582516624;
+    createdAt : OldTimestamp__27916213;
+    deploymentStatus : OldDeploymentStatus__646187649;
+    icon : Text;
+    iconColor : Text;
+    id : OldProjectId__19212060;
+    metadata : OldProjectMetadata__90625156;
+    name : Text;
+    specSections : [OldSpecSection__248332438];
+    updatedAt : OldTimestamp__27916213;
+    versionHistory : [OldProjectVersion__859803869]
+  };
+type OldSortBy__400883833 = {#createdAt; #name; #priority; #updatedAt};
+type OldSpecSection__248332438 = {content : Text; heading : Text};
+type OldTimestamp__27916213 = Int;
+type OldUIState__443164026 =
+  {
+    activeMode : Text;
+    activeProjectId : ?Text;
+    organizeFilters : OldOrganizeFilters__609911255;
+    organizeSortBy : OldSortBy__400883833;
+    sidebarCollapsed : Bool
+  };
+actor ({
+  in idState : {var nextId : Nat};
+  in onboardingHolder : {var complete : Bool};
+  in projects :
+    OldMap__30246564<OldProjectId__19212060, OldProject__561176146>;
+  in uiHolder : {var current : ?OldUIState__443164026}
+}, {
+  
+});
