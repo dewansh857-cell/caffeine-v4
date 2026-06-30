@@ -617,3 +617,12 @@ export default function App() {
     </div>
   );
 }
+async function streamChat(
+  messages: { role: string; content: string }[],
+  onChunk: (chunk: string) => void,
+  signal: AbortSignal,
+) {
+  throw new Error(
+    "No AI provider configured. Please configure Sarvam AI in Settings."
+  );
+}
